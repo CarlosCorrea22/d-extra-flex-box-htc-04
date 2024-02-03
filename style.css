@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: var(--font1);
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border-color: var(--cor0);
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #464646;
+    --cor2: #010101;
+    --cor3: #6FCF97;
+    --font0: 'Inter', sans-serif;
+    --font1: 'Raleway', sans-serif;
+}
+
+.grey-box {
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+nav {
+    width: 16vw;
+    height: 12vh;
+    padding: 10px;
+    font-weight: 400;
+    font-size: clamp(12px, 1vw, 30px);
+    font-family: var(--font0);
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    color: var(--cor2);
+}
+
+nav span {
+    margin: 1vw;
+}
+
+.header-main-wrapper {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 71vw;
+}
+
+header {
+    width: 71vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: clamp(16px, 1.5vw, 35px);
+    padding: 1vw;
+}
+
+.green-box {
+    background-color: var(--cor3);
+    width: 8%;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+header span {
+    margin-left: 1vw;
+}
+
+main {
+    margin-top: 5vh;
+    width: 89%;
+    height: fit-content;
+}
+
+.top-main-section-wrapper {
+    display: flex;
+    border-radius: 5px;
+    color: var(--cor2);
+}
+
+h2 {
+    margin-bottom: 3px;
+}
+
+p {
+    font-size: clamp(10px, 1vw, 35px);
+}
+
+.wide-grey-box {
+    width: 20vw;
+    height: 21vh;
+    border-radius: 5px;
+}
+
+.middle-main-section-wrapper {
+    display: flex;
+    margin-top: 4vw;
+    justify-content: space-between;
+}
+
+.taller-grey-box {
+    width: 20vw;
+    height: 42vh;
+    border-radius: 5px;
+}
+
+.square-grey-box {
+    width: 100%;
+    height: 13vh;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+
+.square-grey-box-wrapper {
+    display: flex;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+.square-grey-box-wrapper span {
+    font-size: clamp(10px, 1vw, 35px);
+}
+
+.tall-boxes-wrapper {
+    margin-left: 1vw;
+
+}
+
+.tall-grey-box-wrapper {
+    margin-bottom: 1vw;
+}
+
+.tall-grey-box-wrapper {
+    display: flex;
+}
+
+.tall-box-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.tall-grey-box {
+    width: 9vw;
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.tall-grey-box-wrapper span {
+    font-size: clamp(10px, 1vw, 35px);
+}
+
+.wider-grey-box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vw;
+}
+
+.wider-grey-box {
+    width: 30vw;
+    height: 19vh;
+    border-radius: 5px;
+}
+
+.super-wider-grey-box {
+    width: 100%;
+    height: 19vh;
+    border-radius: 5px;
+    margin-top: 4vw;
+}
